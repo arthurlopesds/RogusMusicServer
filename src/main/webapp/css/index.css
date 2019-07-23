@@ -1,0 +1,170 @@
+#principal{
+    background-color:#F1FFF0;
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top:1px;
+
+}
+
+header {
+
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    /*background: black;*/
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* background-color: red; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#bestSellersContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    /*background-color: gray;*/
+    width: 250px;
+    
+}
+
+#centerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 6;
+    padding: 10px;
+    /*background-color: aqua;*/
+    width: 500px;
+    padding-top: 0px;
+}
+
+#cartContainer {
+    flex-grow: 3;
+    /*background-color: aquamarine;*/
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#cartContainer p{
+    margin: 0px;
+    
+}
+
+.cdImage {
+    /* margin: 5px; */
+    background-color: red;
+    /* object-fit: cover; */
+    width: 125px;
+}
+
+.cdContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    margin: 13px;
+
+}
+
+.cdContainer:hover{
+    transform: scale(1.5, 1.5);
+    background-color: #F1FFF0;
+}
+
+.cdContainer p {
+    margin: 0px;
+    margin-top: 2px;
+    
+}
+
+/* Essa classe tá com esse nome porque eu não pensei em outro nome para colocar
+   se pensar em um nome, pode mudar */
+.noName {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color: red;*/
+}
+
+
+.text {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/*Texto diferente*/
+
+#nomeloja {
+    color:#F3EBB4;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #89DFFE,
+    1px 2px 1px #89DFFE,
+    1px 3px 1px #89DFFE,
+    1px 4px 1px #89DFFE,
+    1px 5px 1px #3C635B,
+    1px 6px 1px #3C635B,
+    1px 7px 1px #3C635B,
+    1px 8px 1px #365C58,
+    1px 9px 1px #365C58,
+    1px 10px 1px #365C58,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+h5:not(#rodape){
+    color: green;
+}
+
+#rodape{
+    width: 900px;
+    margin: 0 auto;
+    text-align: right;
+    
+
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 1000px;
+    margin 0 auto;
+}
+
+/*Media*/
+
+#audio{
+    width:200px;
+}
+
+#video{
+    margin-top: 0px;
+}
+
+#textVideo{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#textAudio{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
